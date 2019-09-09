@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+div {
+  padding: 5% 15%;
+}
+
+.dark {
+  background-color: #111111;
+}
+
+.light {
+  background-color: inherit;
+  color: #333333;
+}
+
+.lightish {
+  background-color: #DEDEDE;
+  background: repeating-linear-gradient(45deg, #DEDEDE, #ebf8e1 15%, #FFFAAD 20%);
+}
+
+/*********************************************************************************/
+
+.article {
+  background-color: #FFFFFF;
+  color: #222222;
+  font-size: 1.5rem;
+  box-shadow: 8px 8px 4px #333333;
+  padding: 3%;
+  width: 60%;
+  margin: 5% auto;
+}
+
+.article h2 {
+  text-align: center;
+  border-bottom: 2px solid yellow;
+}
+
+.nav {
+  padding: 1% 10%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  vertical-align: middle;
+}
+
+.nav-text {
+  display: inline-block;
+}
+
+.link {
+  transition: 0.5s;
+}
+
+.brand {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link {
+  padding: 0.2% 4%;
+}
+
+.nav-links {
+  padding: 0;
+  float: right;
+  width: 70%;
+}
+
+/*********************************************************************************/
+
+.header {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsr7RbUOmngYIq4SnJtm3vRD2wzwYvVqyUfGkFJL4hDuVGMeFCHg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 60vh;
+}
+
+.header-content {
+  background-color: #00000066;
+  text-align: center;
+}
+
+.header-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  width: 80%;
+  margin: auto;
+}
+
+h1.header-text {
+  font-size: 5rem;
+}
+
+/*********************************************************************************/
+
+.main {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: left;
+  font-size: 1.2rem;
+  width: 60%;
+  padding: 1% 0;
+  margin: auto;
+}
+
+/*********************************************************************************/
+
+.quote {
+  text-align: center;
+}
+
+/*********************************************************************************/
+
+.popup {
+  width: 33%;
+  margin: auto;
+  text-align: center;
+  border: 3px solid gray;
+  border-radius: 1rem;
+  background: linear-gradient(#EEEEEE, #666666);
+}
+
+/*********************************************************************************/
+
+.footer {
+  text-align: center;
+  color: #222222;
+  padding: 1%;
+}
+
+/*********************************************************************************/
+
+.dark a, .dark p{
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+/*********************************************************************************/
+
+.link:hover {
+  color: #FFFAAD;
+}
