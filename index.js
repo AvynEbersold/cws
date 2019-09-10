@@ -10,8 +10,8 @@ function Popup(id, definition){
 
 /////////////////////////////////////////////
 
-let popup1 = new Popup("popup1", "Sorry, I forgot");
-let popup2 = new Popup("popup2", "Sorry, I forgot");
+let popup1 = new Popup("popup1", "Bad Stress: is counterproductive to progress.");
+let popup2 = new Popup("popup2", "Unhealthy habit: doing something in very large amounts.");
 
 /////////////////////////////////////////////
 
